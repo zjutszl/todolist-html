@@ -35,5 +35,9 @@ var taskList =
 		{
 			"task":"XML+Ajax",
 			"progress":""
+		},
+		{
+			"task":"把网站放到coding.net上",
+			"progress":""
 		}
 	];

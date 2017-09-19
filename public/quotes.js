@@ -103,6 +103,7 @@ var quotes = [{
   "quote":"We knew the world would not be the same. Few people laughed, few people cried, most people were silent. I remembered the line from the Hindu scripture, the Bhagavad-Gita. Vishnu is trying to persuade the Prince that he should do his duty and to impress him takes on his multi-armed form and says, “Now I am become Death, the destroyer of worlds.” I suppose we all thought that, one way or another.",
   "author":"J. Robert Oppenheimer"
 }];
+var quotes_one = {};
 (function(){
   for(var i=0;i<quotes.length;i++){
   if (!quotes[i].author){
@@ -110,4 +111,25 @@ var quotes = [{
   }
 };
 })();
+/*
+ * quotes 情况下的筛选
 
+var quoteLength = quotes.length;
+var randomNumber_before = quoteLength * Math.random();
+var randomNumber = Math.round(randomNumber_before);
+var que = [];
+que.push(quotes[randomNumber]);
+quotes = que;
+
+*/
+
+/*
+ *直接显示单个文件 
+ */
+
+ (function(){
+  var quoteLength = quotes.length;
+  var randomNumber_before = quoteLength * Math.random();
+  var randomNumber = Math.round(randomNumber_before);
+  quotes_one = quotes[randomNumber];
+ })();
