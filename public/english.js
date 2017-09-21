@@ -1,6 +1,13 @@
 var enWordList =
 [
   {
+    date:"21",
+    words:['coordinates 坐标',
+    'feat 壮举；功绩',
+    'Polyfill 内置函数源码(from MDN)',
+    'underscore 下划线(___,_)']
+  },
+  {
     date: "20",
     words: ['buffer 缓冲 缓冲区',
       'SVG(Scalable Vector Graphics) 可伸缩向量图形 ',

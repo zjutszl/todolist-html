@@ -1,12 +1,9 @@
-var words = 'token 标识 (http://en.wikipedia.org/wiki/Token),\
-literal 直接量 就是程序直接使用的数据值,\
-escape sequence 转义字符,\
-dabble 拨弄，尝试,\
-grasp n.理解 v.掌握,\
-implement n. 工具，手段 v. 执行,\
-cross-reference [计]交叉引用';
+var words = 'coordinates 坐标·\
+feat 壮举；功绩·\
+Polyfill 内置函数源码(from MDN)·\
+underscore 下划线(___,_)';
 
-var kk = words.split(',');
+var kk = words.split('·');
 console.log(kk);
 /*
 var englishWord = [{
